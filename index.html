@@ -14,22 +14,22 @@
 
 <body class="bg-black">
     <!-- Scroll Progress Bar -->
-    <div id="scrollProgressBar" class="fixed top-0 left-0 w-full h-1 bg-yellow-300"></div>
+    <div id="scrollProgressBar" class="fixed top-0 left-0 w-full h-1 bg-stone-700"></div>
 
     <!-- component -->
-    <section class="hero">
+    <section class="overflow-hidden hero">
         <div class="bg-black text-white py-7">
             <div class="container mx-auto flex flex-col md:flex-row items-center my-12 mt-8 md:my-24">
-                <div class="hero-content-left flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
-                    <h1 class="text-4xl md:text-6xl p-2 text-stone-200 tracking-loose  font-bold fade-in">THE SILVER PALACE</h1>
-                    <h2 class="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2 fade-in">Perfect Service</h2>
-                    <p class="text-sm md:text-base text-gray-50 mb-4 fade-in">Host the perfect event with elegant decor,
+                <div class="hero-content-left flex flex-col w-full lg:w-1/3 justify-center items-start p-8 slide-in-left">
+                    <h1 class="text-4xl md:text-6xl p-2 text-stone-200 tracking-loose font-bold">THE SILVER PALACE</h1>
+                    <h2 class="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">Perfect Service</h2>
+                    <p class="text-sm md:text-base text-gray-50 mb-4">Host the perfect event with elegant decor,
                         delicious catering, and seamless service tailored to your needs.</p>
                     <a href="#"
-                        class="bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent fade-in">
+                        class="bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
                         Book Now</a>
                 </div>
-                <div class="hero-content-right p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3 justify-center">
+                <div class="hero-content-right p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3 justify-center slide-in-right">
                     <div class="h-48 flex flex-wrap content-center">
                         <div class="hover:scale-125 hover:rotate-12 hero-imgs">
                             <img class="inline-block mt-28 hidden xl:block"
@@ -48,6 +48,7 @@
             </div>
         </div>
     </section>
+    
     <section>
         <h3 class="text-slate-200 text-5xl my-6 font-bold font-mono text-center">Our Services</h3>
         <div class="grid md:grid-cols-2 gap-1 sm:grid-cols-1">
@@ -114,7 +115,6 @@
                 </div>
             </div>
         </div>
-    </section>
     </section>
 
     <!-- GO UP BUTTON -->
