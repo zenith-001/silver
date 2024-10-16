@@ -1,0 +1,15 @@
+@import "https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css";
+@import "https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css";
+@import "https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css";
+@import "https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css";
+@import "https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css";
+@import "https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css";
+
+@font-face {
+    font-family: 'logo font';
+    src: url('../assets/fonts/TGFrekuentMonoVariable.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
